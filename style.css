@@ -6,12 +6,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* === IMAGES === */
 /* STEP 3: keep images inside their containers */
-
+img{
+  max-width: 100%;
+  height: auto;
+}
 /* === BASE TYPE === */
 /* STEP 6: font stack and line-height on body */
+body {
+  font-family: "Noto Sans";
+  font-weight: 400;
+}
+h1,h2,h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* STEP 7: rem sizes for h1, h2, h3 */
 /* STEP 8: max-width on paragraphs */
 /* STEP 11: smooth scrolling on html (optional) */
